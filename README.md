@@ -1,6 +1,8 @@
 ## DSTAT Server
 Cloud provider agnostic Linux VM resource monitoring and alert system
 
+Note 2023-06-18: This repository is not maintained anymore. It is encouraged to use container solution e.g. OpenTelemetry, Prometheus etc for this use case.
+
 ### Introduction
 This package provides a simple server/receiver system to query the current and historical usage of system resource (CPU, RAM, DISK) for Linux virtual machines. The  package is a simple wrapper for psutil and dstat program.
 
